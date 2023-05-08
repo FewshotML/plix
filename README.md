@@ -16,12 +16,11 @@ We provide the library for our PLiX model:
 pip install plixkws
 ```
 
-Then you can follow the below usage or refer to [test_model.py]().
+Then you can follow the below usage or refer to [test_model.py](https://github.com/FewshotML/plix/blob/main/test_model.py).
 
 ```python
 import torch
-from plixkws import util
-from plixkws import model
+from plixkws import model, util
 
 fws_model = model.load(encoder_name="base", language="en", device="cpu")
 
@@ -74,9 +73,11 @@ with torch.no_grad():
 
 ## Citation
 If you find this work useful, please cite our paper:
+```
 @article{saeed2023plix,
   title={Plug-and-Play Multilingual Few-shot Spoken Words Recognition},
   author={Saeed, Aaqib and Tsouvalas, Vasileios},
   journal={arXiv preprint arXiv:2305.03058},
   year={2023}
 }
+```
