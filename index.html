@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Plug-and-Play Multilingual Few-shot Spoken Words Recognition</title>
+
+    <meta name="description" content="Plug-and-Play Multilingual Few-shot Spoken Words Recognition">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--FACEBOOK-->
+    <meta property="og:image" content="https://fewshotml.github.io/plix/blob/main/plix_kws.png">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="682">
+    <meta property="og:image:height" content="682">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fewshotml.github.io/plix"/>
+    <meta property="og:title" content="Plug-and-Play Multilingual Few-shot Spoken Words Recognition" />
+    <meta property="og:description" content="Plug-and-Play Multilingual Few-shot Spoken Words Recognition." />
+
+        <!--TWITTER-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Plug-and-Play Multilingual Few-shot Spoken Words Recognition" />
+    <meta name="twitter:description" content="Plug-and-Play Multilingual Few-shot Spoken Words Recognition." />
+    <meta name="twitter:image" content="https://fewshotml.github.io/plix/blob/main/plix_kws.png" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+    
+    <script src="js/app.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-52J0PM8XKV"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-52J0PM8XKV');
+    </script>
+    <style>
+        .nav-pills {
+          position: relative;
+          display: inline;
+        }
+        .imtip {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="col-md-12 text-center">
+                <strong><font size="+3">Plug-and-Play Multilingual Few-shot Spoken Words Recognition</font></strong> </br> 
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                <br>
+                <li><a href="https://aqibsaeed.github.io/">Aaqib Saeed</a></li> <li><a href="https://vtsouval.github.io/">Vasileios Tsouvalas</a></li>
+                <br>
+            <br>
+                <a href="https://www.tue.nl/en/"> <image src="img/tue_logo.png" height="40px"> </a>
+            </ul>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <ul class="nav nav-pills nav-justified">
+                    <li>
+                        <a href="https://arxiv.org/pdf/2305.03058.pdf">
+                        <image src="img/plix_thumbnail.jpg" height="60px">
+                            <h4><strong>Paper</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/FewshotML/plix">
+                        <image src="img/github.png" height="60px">
+                            <h4><strong>Code</strong></h4>
+                        </a>                   
+                    </li> 
+                </ul>
+            </div>
+        </div>
+        
+        <br><br>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                 <p style="text-align:center;">
+                    <img src="img/plix_kws.png" alt="Illustration of Plug-and-Play Multilingual Few-shot Spoken Words Recognition" width="90%"/>
+                </p>
+                <br>
+                <h3>
+                    Abstract
+                </h3>
+                <p class="text-justify">
+                    As technology advances and digital devices become prevalent, seamless human-machine communication is increasingly gaining significance. The growing adoption of mobile, wearable, and other Internet of Things (IoT) devices has changed how we interact with these smart devices, making accurate spoken words recognition a crucial component for effective interaction. However, building robust spoken words detection system that can handle novel keywords remains challenging, especially for low-resource languages with limited training data. Here, we propose PLiX, a multilingual and plug-and-play keyword spotting system that leverages few-shot learning to harness massive real-world data and enable the recognition of unseen spoken words at test-time. Our few-shot deep models are learned with millions of one-second audio clips across 20 languages, achieving state-of-the-art performance while being highly efficient. Extensive evaluations show that PLiX can generalize to novel spoken words given as few as just one support example and performs well on unseen languages out of the box. We release models and inference code to serve as a foundation for future research and voice-enabled user interface development for emerging devices.
+                </p>
+            </div>
+        </div>   
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Key Contributions
+                </h3>
+                <ul>
+                    <li>We develop PLiX, a general-purpose, multilingual, and plug-and-play, few-shot keyword spotting system trained and evaluated with more than 12 million one-second audio clips sampled at 16kHz.</li>
+                    <li>Leverage state-of-the-art neural architectures to learn few-shot models that are high performant while being efficient with fewer learnable parameters.</li>
+                    <li>A wide-ranging set of evaluations to systematically quantify the efficacy of our system across 20 languages and thousands of classes (i.e., words or terms); showcasing generalization to unseen words at test-time given as few as one support example per class.</li>
+                    <li>We demonstrate that our model generalizes exceptionally well in a one-shot setting on 5 unseen languages. Further, in a cross-task transfer evaluation on a challenging FLEURS benchmark, our model performs well for language identification without any retraining.</li>
+                    <li>To serve as a building block for future research on spoken word detection with meta-learning, we release model weights and inference code as a <a href="https://pypi.org/project/plixkws">Python package.</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Selected Results
+                </h3>
+                <p style="text-align:center;">
+                    <image src="img/r1.png" class="img-responsive" width="80%">  
+                    Performance evaluation of multilingual `base' model trained on data from considered 20 languages.                   
+                </p>
+                <br><br><br>
+
+                <p style="text-align:center;">
+                    <image src="img/r2.png" class="img-responsive" width="60%">     
+                    Result of few-shot English language-specific `base' model learned with 30-way and 5-shot task. 
+                    We aim to highlight that at test-time the same model can handle large-number of classification tasks with varying support set examples.   	   
+                </p>          
+                <br><br><br>
+
+                <p style="text-align:center;">
+                    <image src="img/r3.png" class="img-responsive" width="60%">        	   
+                </p>
+                Results on five unseen low-resource languages in MSWC, namely Frisian, Mongolian, Maltese, Slovenian, and Tamil.
+                We evaluate `base' multilingual model in a one-shot manner to show generalization power of our few-shot model.
+                <br><br><br>
+            </div>
+        </div>
+             
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation 
+                </h3>
+                <div class="form-group col-md-10 col-md-offset-1">
+                    <textarea id="bibtex" class="form-control" readonly>
+@article{saeed2023plix,
+    title={Plug-and-Play Multilingual Few-shot Spoken Words Recognition},
+    author={Saeed, Aaqib and Tsouvalas, Vasileios},
+    journal={arXiv preprint arXiv:2305.03058},
+    year={2023}
+}</textarea>
+                </div>
+            </div>
+        </div>
+
+         <div class="row">
+            <div id="open-source" class="col-md-8 col-md-offset-2">
+                <h3>
+                    Open Source
+                </h3>
+                We open source the PLiX models and inference code <a href="https://github.com/FewshotML/plix">[here]. </a>
+              <p style="text-align:center;"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <p style="text-align:center;"></p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
