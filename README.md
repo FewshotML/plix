@@ -4,7 +4,7 @@
 As technology advances and digital devices become prevalent, seamless human-machine communication is increasingly gaining significance. The growing adoption of mobile, wearable, and other Internet of Things (IoT) devices has changed how we interact with these smart devices, making accurate spoken words recognition a crucial component for effective interaction. However, building robust spoken words detection system that can handle novel keywords remains challenging, especially for low-resource languages with limited training data. Here, we propose PLiX, a multilingual and plug-and-play keyword spotting system that leverages few-shot learning to harness massive real-world data and enable the recognition of unseen spoken words at test-time. Our few-shot deep models are learned with millions of one-second audio clips across 20 languages, achieving state-of-the-art performance while being highly efficient. Extensive evaluations show that PLiX can generalize to novel spoken words given as few as just one support example and performs well on unseen languages out of the box. We release models and inference code to serve as a foundation for future research and voice-enabled user interface development for emerging devices.
 
 <p align="center">
-  <img src="https://github.com/FewshotML/plix/blob/main/plix_kws.png" alt="Illustration of Plug-and-Play Multilingual Few-shot Spoken Words Recognition" width="80%"/>
+  <img src="https://github.com/FewshotML/plix/blob/main/img/plix_kws.png" alt="Illustration of Plug-and-Play Multilingual Few-shot Spoken Words Recognition" width="80%"/>
 </p>
 
 ## Key Contributions 
